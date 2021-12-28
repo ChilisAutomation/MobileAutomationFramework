@@ -68,9 +68,15 @@ public class ExcelUtils
             return "row "+rowNum+" or column "+col_Num +" does not exist  in Excel";
         }
     }
-    
+
+    /**
+     * Get number of rows
+     * @param sheetName
+     * @return
+     */
     public int getNoOfRows(String sheetName) {
     	sheet = workbook.getSheet(sheetName);
     	 return sheet.getLastRowNum()+1;
     }
+
 }
