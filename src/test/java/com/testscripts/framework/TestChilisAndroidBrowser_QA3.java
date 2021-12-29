@@ -71,7 +71,7 @@ public class TestChilisAndroidBrowser_QA3 extends Base {
 		components.validateLogout();
 	}
 
-	@Test(priority = 2)
+/*	@Test(priority = 2)
 	public void TC23_ANDROID_BROWSER_QA2_LoggedInUserOrder_TestCase() throws Exception {
 		Logger log = LogManager.getLogger("LoggedInUserOrder_TestCase");
 		log.info(
@@ -89,7 +89,7 @@ public class TestChilisAndroidBrowser_QA3 extends Base {
 		components.getSuccessMessageforLoggedInOrder();
 		String priceAfterPlacingOrder = components.returnOrderPrice();
 		components.comparePrice(priceBeforePlacingOrder, priceAfterPlacingOrder);
-	}
+	}*/
 
 	@Test(priority = 3)
 	public void TC24_ANDROID_BROWSER_QA2_CurbsideASAPorder_MCAUser_TestCase() throws Exception {
