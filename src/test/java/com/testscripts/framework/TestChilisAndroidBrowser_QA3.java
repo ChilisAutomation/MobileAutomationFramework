@@ -60,7 +60,7 @@ public class TestChilisAndroidBrowser_QA3 extends Base {
 	}
 	
 	
-	/*@Test(priority = 1)
+	@Test(priority = 1)
 	public void TC22_ANDROID_BROWSER_QA2_LoginLogout_TestCase() throws Exception {
 		Logger log = LogManager.getLogger("LoginLogout_TestCase");
 		log.info(
@@ -69,7 +69,7 @@ public class TestChilisAndroidBrowser_QA3 extends Base {
 		components.validateQASite();
 		components.validateLogin();
 		components.validateLogout();
-	}*/
+	}
 
 	@Test(priority = 2)
 	public void TC23_ANDROID_BROWSER_QA2_LoggedInUserOrder_TestCase() throws Exception {
